@@ -30,7 +30,7 @@ def quiz_method():
     print(green + "Correct!")
     print(bright_blue + "Next Question: \n\n")
 
-    answer = input(bright_blue + "What should you ALWAYS remeber to do before you exit out of your program? Is it: \n A. Throw away your computer,\n B. Run your Code,\n C. Commit and Push to Github.").lower().strip()
+    answer = input(bright_blue + "What should you ALWAYS remeber to do before you exit out of your program? Is it: \n A. Throw away your computer,\n B. Run your Code,\n C. Commit and Push to Github. ").lower().strip()
 
     if answer == "a":
       print(red + "Incorrect.")
@@ -50,7 +50,7 @@ def quiz_method():
         print(green + "Correct!")
         print(bright_blue + "Next Question: \n\n")
 
-        
+        answer = input("Which of the following are used to take user input in python? Is it: \n A. ask() \n B. print() \n C. input() ")
 
 
 
