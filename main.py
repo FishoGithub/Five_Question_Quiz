@@ -13,6 +13,19 @@ name = "Mihir"
 score = 0
 answer = ""
 
+def zero():
+  print(white + "nothing")
+def one():
+  print(white + "hotdog")
+def two():
+  print(white + "e")
+def three():
+  print(white + "a")
+def four():
+  print(white + "sports")
+def five():
+  print(white + " H A M B U R G E R.")
+
 def quiz_method():
   global score
   global answer 
@@ -75,7 +88,25 @@ def quiz_method():
             print(red + "Incorrect.")
 
   print("\nCongratualtions! You earned " + str(score) + " points!")
-  print("\nAnd your prize is: \n\n" + white + " H A M B U R G E R.")
+  print("\nAnd your prize is: \n\n")
+
+  if score == 0:
+    zero()
+  elif score == 1:
+    one()
+  elif score == 2:
+    two()
+  elif score == 3:
+    three()
+  elif score == 4:
+    four()
+  elif score == 5:
+    five()
 
 
-quiz_method()
+
+while True:
+  quiz_method()
+
+  if score > 0:
+    break
