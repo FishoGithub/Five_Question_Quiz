@@ -24,13 +24,13 @@ def three():
 def four():
   print(white + "sports")
 def five():
-  print(white + " H A M B U R G E R.")
+  print(white + "H A M B O U R G E R.")
 
 def quiz_method():
   global score
   global answer 
 
-  print(bright_cyan + "Welcome to the 5 question quiz. answer all the questions correctly to recive: " + green + " H a m b u r g e r.\n")
+  print(bright_cyan + "Welcome to the 5 question quiz. answer all the questions correctly to recive: " + green + " H A M B O U R G E R.\n")
   print(bright_blue + "First Question: \n\n")
 
   answer = input(bright_blue + "Which language is used to make a webpage look good? Is it: \n A. JavaScript,\n B. CSS,\n C. HTML").lower().strip()
